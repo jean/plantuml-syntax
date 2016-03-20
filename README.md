@@ -8,9 +8,9 @@ first line of a file contains `@startuml`.
 Additionally the `makeprg` is set to `plantuml` assuming you have this
 executable in your path.  This file could contain something like
 
-````sh
+```sh
 #!/bin/bash
 java -jar $HOME/lib/java/plantuml.jar -tsvg $@
-````
+```
 
 You can change the name of this file by setting `g:plantuml_executable_script`
